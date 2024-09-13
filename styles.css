@@ -1,0 +1,143 @@
+
+body,html{
+    background-color: #ecf2f8;
+    height:100%;
+    margin:0;
+}
+
+
+.card-view{
+    background-color: white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:300px;
+    height:auto;
+    text-align:center;
+    border-radius:5px;
+   
+}
+
+
+.drawers-image{
+    width:100%;
+    height:180px;
+    border-radius:5px 5px 0px 0px;
+}
+
+h3{
+    font-family: "Manrope", sans-serif;
+    font-weight:900;
+    opacity:90%;
+    color:#48556a;
+    text-align:left;
+    font-size:15px;
+    margin:30px ;
+    width:80%;
+}
+p{
+    text-align: left;
+    margin:30px;
+    font-size:13px;
+    color:#6d7f97;
+    opacity:90%;
+    font-family:"Manrope",sans-serif;
+    font-weight: 500;
+
+}
+.contact-preview-container{
+    position:relative;
+    border-radius:0px 0px 5px 5px;
+    overflow: hidden;
+}
+
+.contact-preview{
+    text-align:left;
+    font-size:13px;
+    display:flex;
+    align-items:last baseline;
+
+    margin-left:30px;
+    margin-top:-30px;
+    background-color: transparent;
+    overflow:hidden;
+    
+
+}
+
+.avatar{
+    width:10%;
+    height:10%;
+    border-radius:50%;
+    
+}
+
+.sharing-button{
+    width:25px;
+    height:25px;
+    background-color: #ecf2f8;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:50%;
+    margin-left:20px;
+    border:none;
+    position:absolute;
+    top:20px;
+    right:10px;
+    z-index:10;
+
+}
+
+.sharing{
+    width:15px;
+   height:15px;
+
+    
+}
+
+.hidden-content {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items:center;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background-color: grey !important;
+    border-radius: 0px 0px 5px 5px;
+    z-index: 1;
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+    
+    
+    
+}
+
+
+.hidden-text{
+    font-family:"Manrope",sans-serif;
+    font-weight: 500;
+    color:white;    
+    opacity:70%;
+    font-size:large;
+
+    
+}
+
+.icons{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.iconFacebook,iconTwitter,iconPinterest{
+    width:24px;
+    height:24px;
+}
+
+.hidden-avatar{
+    display:none;
+}
